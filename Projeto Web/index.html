@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Adimo</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="formulario.html">Formulário</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="interacao.html">Negocie seu imóvel</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <img class=" imagem1" src="assets/img/Logo.png" alt="Logo da empresa ADIMO">
+        <div class="container1">
+            <h2>Formulário de Compra de Imóveis</h2>
+            <form>
+                <label for="tipo-negocio">Tipo de Negócio:</label>
+                <select id="tipo-negocio">
+                    <option value="selcione">Selecione</option>
+                    <option value="compra">Compra</option>
+                    <option value="aluguel">Aluguel</option>
+                </select>
+
+                <label for="tipo-imovel">Tipo de Imóvel:</label>
+                <select id="tipo-imovel">
+                    <option value="selcione">Selecione</option>
+                    <option value="casa">Casa</option>
+                    <option value="apartamento">Apartamento</option>
+                    <option value="terreno">Terreno</option>
+                    <option value="comercial">Flat</option>
+                </select>
+
+                <label for="valor-minimo">Valor Mínimo:</label>
+                <input type="number" id="valor-minimo" placeholder="R$0,00">
+
+                <label for="valor-maximo">Valor Máximo:</label>
+                <input type="number" id="valor-maximo" placeholder="R$ 0,00">
+
+                <label for="bairro">Bairro:</label>
+                <select id="bairro">
+                    <option value="selcione">Selecione</option>
+                    <option value="casa">Eldorado</option>
+                    <option value="apartamento">Moema</option>
+                    <option value="terreno">Vila Mariana</option>
+                    <option value="comercial">Itaim Bibi</option>
+                </select>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
